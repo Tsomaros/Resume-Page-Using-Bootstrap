@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Profile/Introduction/Summary-->
+    <section id="profile" class="py-5 bg-body-tertiary">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      
+      <!-- Profile Card (Left Column) -->
+      <div class="col-lg-4">
+        <div class="card border-0 shadow-sm text-center p-4 rounded-4 bg-white">
+          <div class="position-relative d-inline-block mx-auto mb-3">
+            <img 
+              src="./personal.jfif" 
+              alt="Vlachogiannis Dimitris" 
+              class="rounded-circle img-fluid border border-3 border-primary p-1"
+              style="width: 160px; height: 160px; object-fit: cover;"
+            >
+          </div>
+          
+          <h2 class="h4 fw-bold text-dark mb-1">Vlachogiannis Dimitris</h2>
+          <p class="text-primary fw-medium mb-3">Computer Engineering Graduate</p>
+          <p class="small text-muted mb-3"><i class="bi bi-geo-alt-fill me-1"></i>University of Patras</p>
+
+          <!-- Key Tag Pills -->
+          <div class="d-flex flex-wrap justify-content-center gap-1 mt-2">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-3 py-2">Machine Learning</span>
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-3 py-2">Computer Vision</span>
+            <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle rounded-pill px-3 py-2">Full-Stack Development</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary & Bio (Right Column) -->
+      <div class="col-lg-8">
+        <div class="ps-lg-3">
+          <h2 class="pb-3 mb-4 border-bottom fw-bold text-primary">Summary</h2>
+          
+          <p class="lead text-secondary mb-3 fs-6 lh-lg">
+            I am a Computer Engineering graduate from the <strong class="text-dark">University of Patras</strong>, with a strong focus on Machine Learning, Computer Vision, and Artificial Intelligence.
+          </p>
+          
+          <p class="text-secondary lh-lg mb-3">
+            As part of my diploma thesis, I worked extensively with CNNs and Transformer-based models for image classification and object detection using benchmark datasets such as ImageNet and COCO. This research provided me with hands-on experience in <strong>PyTorch</strong> and <strong>Hugging Face</strong>, and contributed to published research on Visual Transformers.
+          </p>
+
+          <p class="text-secondary lh-lg mb-0">
+            Additionally, I have experience with Python, NumPy, Pandas, Scikit-learn, and database management across SQL (MySQL, MariaDB) and NoSQL (MongoDB) systems. My portfolio includes data mining, predictive modeling, clustering, and full-stack web development using Node.js, Express, and JavaScript.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <!-- Education Section -->
+<section id="education" class="py-5 bg-body-tertiary">
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between pb-3 mb-4 border-bottom">
+      <h2 class="fw-bold text-primary mb-0">Education</h2>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-12">
+        <div class="card border-0 shadow-sm rounded-4 p-4 bg-white border-start border-primary border-5">
+          <div class="row align-items-center g-4">
+            
+            <!-- University Info Left -->
+            <div class="col-lg-8">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill">Integrated Master / Diploma</span>
+                <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill">Graduated</span>
+              </div>
+              
+              <h3 class="h4 fw-bold text-dark mb-1">Computer Engineering &amp; Informatics</h3>
+              <p class="text-primary fw-medium mb-3">
+                <i class="bi bi-building me-1"></i> University of Patras
+              </p>
+
+              <!--Deploma Thesis-->
+              <ul>
+                <li>
+                <h4 class="h6 fw-bold text-dark mb-2">
+                  <i class="bi bi-journal-bookmark-fill text-primary me-2"></i>Diploma Thesis
+                </h4>
+                <p class="small text-secondary mb-2"><a href="https://nemertes.library.upatras.gr/items/80f78f32-d66e-43a4-b168-695a305df1d7">
+                    Comparative Evaluation of Transformer Models for Image Recognition and Classification</a>
+                </p>
+                <span>Comparativeevaluation of CNN,TransformerandHybridarchitectures for image classification and object detection
+                    using ImageNet and COCO.</span>
+                </li>
+                </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!--Skills-->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="pb-3 mb-4 border-bottom fw-bold text-primary">Technical Skills</h2>
+            
+            <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+            
+            <!-- Programming -->
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body">
+                    <h3 class="h5 card-title fw-bold mb-3 text-dark">
+                    <i class="bi bi-code-slash text-primary me-2"></i>Programming
+                    </h3>
+                    <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-primary-subtle text-primary fw-medium px-3 py-2 rounded-pill">Python</span>
+                    <span class="badge bg-primary-subtle text-primary fw-medium px-3 py-2 rounded-pill">Java</span>
+                    <span class="badge bg-primary-subtle text-primary fw-medium px-3 py-2 rounded-pill">C</span>
+                    <span class="badge bg-primary-subtle text-primary fw-medium px-3 py-2 rounded-pill">JavaScript</span>
+                    <span class="badge bg-primary-subtle text-primary fw-medium px-3 py-2 rounded-pill">HTML</span>
+                    <span class="badge bg-primary-subtle text-primary fw-medium px-3 py-2 rounded-pill">PHP</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Databases -->
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body">
+                    <h3 class="h5 card-title fw-bold mb-3 text-dark">
+                    <i class="bi bi-database text-primary me-2"></i>Databases
+                    </h3>
+                    <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-success-subtle text-success fw-medium px-3 py-2 rounded-pill">SQL (MySQL, MariaDB)</span>
+                    <span class="badge bg-success-subtle text-success fw-medium px-3 py-2 rounded-pill">NoSQL (MongoDB)</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Frameworks -->
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body">
+                    <h3 class="h5 card-title fw-bold mb-3 text-dark">
+                    <i class="bi bi-layers text-primary me-2"></i>Frameworks
+                    </h3>
+                    <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-info-subtle text-info-emphasis fw-medium px-3 py-2 rounded-pill">PyTorch</span>
+                    <span class="badge bg-info-subtle text-info-emphasis fw-medium px-3 py-2 rounded-pill">Hugging Face Transformers</span>
+                    <span class="badge bg-info-subtle text-info-emphasis fw-medium px-3 py-2 rounded-pill">Node.js</span>
+                    <span class="badge bg-info-subtle text-info-emphasis fw-medium px-3 py-2 rounded-pill">Express.js</span>
+                    <span class="badge bg-info-subtle text-info-emphasis fw-medium px-3 py-2 rounded-pill">FastAPI</span>
+                    <span class="badge bg-info-subtle text-info-emphasis fw-medium px-3 py-2 rounded-pill">Bootstrap</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Libraries -->
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body">
+                    <h3 class="h5 card-title fw-bold mb-3 text-dark">
+                    <i class="bi bi-journal-code text-primary me-2"></i>Libraries
+                    </h3>
+                    <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-warning-subtle text-warning-emphasis fw-medium px-3 py-2 rounded-pill">Pandas</span>
+                    <span class="badge bg-warning-subtle text-warning-emphasis fw-medium px-3 py-2 rounded-pill">NumPy</span>
+                    <span class="badge bg-warning-subtle text-warning-emphasis fw-medium px-3 py-2 rounded-pill">Hugging Face Datasets</span>
+                    <span class="badge bg-warning-subtle text-warning-emphasis fw-medium px-3 py-2 rounded-pill">Scikit-learn</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Spoken Languages -->
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body">
+                    <h3 class="h5 card-title fw-bold mb-3 text-dark">
+                    <i class="bi bi-translate text-primary me-2"></i>Spoken Languages
+                    </h3>
+                    <ul class="list-unstyled mb-0">
+                    <li class="d-flex justify-content-between align-items-center mb-2">
+                        <span>Greek</span>
+                        <span class="badge bg-secondary">Native</span>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center">
+                        <span>English</span>
+                        <span class="badge bg-secondary">Lower Michigan</span>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Projects-->
+<section id="projects" class="py-5 bg-body-tertiary">
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between pb-3 mb-4 border-bottom">
+      <h2 class="fw-bold text-primary mb-0">Projects</h2>
+      <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-3 py-2">Featured Work</span>
+    </div>
+
+    <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+      <!-- Project 1: Diploma Thesis / Computer Vision -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden border-top border-primary border-4">
+          <div class="card-body d-flex flex-column justify-content-between p-4">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="badge bg-primary-subtle text-primary fw-medium px-2.5 py-1.5 rounded-pill">Diploma Thesis</span>
+              </div>
+              <h3 class="h5 card-title fw-bold text-dark mb-2">Visual Transformers for Image Classification</h3>
+              <p class="card-text text-secondary small mb-3">
+                Evaluated CNNs and Transformer-based models for high-accuracy image classification and object detection on benchmark datasets like ImageNet and COCO.
+              </p>
+              
+              <!-- Tech Badges -->
+              <div class="d-flex flex-wrap gap-1 mb-4">
+                <span class="badge bg-light text-dark border">PyTorch</span>
+                <span class="badge bg-light text-dark border">Torchvision</span>
+                <span class="badge bg-light text-dark border">Hugging Face</span>
+                <span class="badge bg-light text-dark border">Python</span>
+                <span class="badge bg-light text-dark border">Computer Vision</span>
+              </div>
+            </div>
+
+            <div class="d-flex gap-2 pt-3 border-top">
+              <a href="https://github.com/Tsomaros/Vision-Transformers" class="btn btn-sm btn-outline-primary w-100 rounded-pill">
+                <i class="bi bi-github me-1"></i> Code Repository
+              </a>
+              <a href="https://arxiv.org/pdf/2512.09579" class="btn btn-sm btn-primary w-100 rounded-pill">
+                <i class="bi bi-journal-text me-1"></i> Read Paper
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Data Mining -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden border-top border-primary border-4">
+          <div class="card-body d-flex flex-column justify-content-between p-4">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="badge bg-primary-subtle text-primary fw-medium px-2.5 py-1.5 rounded-pill">Data Mining</span>
+              </div>
+              <h3 class="h5 card-title fw-bold text-dark mb-2">Data Mining</h3>
+              <p class="card-text text-secondary small mb-3">
+                A collection of Data Mining and Machine Learning projects implemented in Python. 
+                The project covers unsupervised learning, time-series regression, and text classification using real-world datasets.</p>
+              
+              <!-- Tech Badges -->
+              <div class="d-flex flex-wrap gap-1 mb-4">
+                <span class="badge bg-light text-dark border">Python</span>
+                <span class="badge bg-light text-dark border">NumPy</span>
+                <span class="badge bg-light text-dark border">Pandas</span>
+                <span class="badge bg-light text-dark border">Matplotlib</span>
+                <span class="badge bg-light text-dark border">Plotly</span>
+                <span class="badge bg-light text-dark border">Gensim</span>
+                <span class="badge bg-light text-dark border">NLTK</span>
+              </div>
+            </div>
+
+            <div class="d-flex gap-2 pt-3 border-top">
+              <a href="https://github.com/Tsomaros/Data-Mining" class="btn btn-sm btn-outline-primary w-100 rounded-pill">
+                <i class="bi bi-github me-1"></i> Code Repository
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: WEB -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden border-top border-primary border-4">
+          <div class="card-body d-flex flex-column justify-content-between p-4">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="badge bg-primary-subtle text-primary fw-medium px-2.5 py-1.5 rounded-pill">Full-Stack Development</span>
+              </div>
+              <h3 class="h5 card-title fw-bold text-dark mb-2">Supermarket Price Comparison WebApp</h3>
+              <p class="card-text text-secondary small mb-3">
+                A full-stack web application for managing supermarket products, prices, offers, users, and supermarket data.
+                The project was developed as a web application using Node.js, Express, MongoDB/Mongoose, EJS, and Passport.js. It provides separate user and administrator 
+                functionality, product and category management, supermarket offers, price data, statistics, and a token/points-based contribution system.</p>
+
+              <!-- Tech Badges -->
+              <div class="d-flex flex-wrap gap-1 mb-4">
+                <span class="badge bg-light text-dark border">Node.js</span>
+                <span class="badge bg-light text-dark border">Express.js</span>
+                <span class="badge bg-light text-dark border">MongoDB</span>
+                <span class="badge bg-light text-dark border">Mongoose</span>
+                <span class="badge bg-light text-dark border">EJS</span>
+                <span class="badge bg-light text-dark border">Passport.js</span>
+                <span class="badge bg-light text-dark border">bcrypt</span>
+                <span class="badge bg-light text-dark border">Multer</span>
+                <span class="badge bg-light text-dark border">Leaflet</span>
+                <span class="badge bg-light text-dark border">node-cron</span>
+              </div>
+            </div>
+
+            <div class="d-flex gap-2 pt-3 border-top">
+              <a href="https://github.com/Tsomaros/WEB" class="btn btn-sm btn-outline-primary w-100 rounded-pill">
+                <i class="bi bi-github me-1"></i> Code Repository
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!--Courses-->
+    <section id="courses" class="py-5 bg-body-tertiary">
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between pb-3 mb-4 border-bottom">
+      <h2 class="fw-bold text-primary mb-0">Courses</h2>
+    </div>
+
+    <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+      <!-- Course Item -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm p-3 rounded-4">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary-subtle text-primary rounded-3 p-2 me-3">
+                  <i class="bi bi-code-square fs-4"></i>
+                </div>
+                <span class="badge bg-secondary-subtle text-secondary border rounded-pill">Web Development</span>
+              </div>
+              <h3 class="h6 card-title fw-bold text-dark lh-base"><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=26BBPPLO2MXTRMT">The Complete Full-Stack Web Development Bootcamp</a></h3>
+            </div>
+            <div class="mt-3 pt-3 border-top d-flex align-items-center text-muted small">
+              <i class="bi bi-award me-1 text-primary"></i> In progress
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Item -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm p-3 rounded-4">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary-subtle text-primary rounded-3 p-2 me-3">
+                  <i class="bi bi-cpu fs-4"></i>
+                </div>
+                <span class="badge bg-secondary-subtle text-secondary border rounded-pill">AI & Data Science</span>
+              </div>
+              <h3 class="h6 card-title fw-bold text-dark lh-base"><a href="https://www.udemy.com/course/artificial-intelligence-az/?couponCode=KEEPLEARNING">AI A-Z: Agentic AI, Gen AI, Prompt Engineering and RL</a></h3>
+            </div>
+            <div class="mt-3 pt-3 border-top d-flex align-items-center text-muted small">
+              <i class="bi bi-award me-1 text-primary"> <a href="https://www.udemy.com/certificate/UC-92617423-1bfe-417b-a294-1ddbae9f78b4/">Completed</a></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Item -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm p-3 rounded-4">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary-subtle text-primary rounded-3 p-2 me-3">
+                  <i class="bi bi-gear-wide-connected fs-4"></i>
+                </div>
+                <span class="badge bg-secondary-subtle text-secondary border rounded-pill">Java & Spring</span>
+              </div>
+              <h3 class="h6 card-title fw-bold text-dark lh-base"><a href="https://www.udemy.com/course/spring-hibernate-tutorial/?couponCode=26BBPPLO2MXTRMT">Spring Boot 4, Spring 7 & Hibernate for Beginners</a></h3>
+            </div>
+            <div class="mt-3 pt-3 border-top d-flex align-items-center text-muted small">
+              <i class="bi bi-award me-1 text-primary"></i> In progress
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Item -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow-sm p-3 rounded-4">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex align-items-center mb-3">
+                <div class="bg-primary-subtle text-primary rounded-3 p-2 me-3">
+                  <i class="bi bi-layers fs-4"></i>
+                </div>
+                <span class="badge bg-secondary-subtle text-secondary border rounded-pill">C# & .NET</span>
+              </div>
+              <h3 class="h6 card-title fw-bold text-dark lh-base"><a href="https://www.udemy.com/share/101vEs3@QTGZsdcrDsqyOt5ad_S-7O16kV2lFWoEV7jr4Dxp4qFgQEgHn4lBbCvTnBbQ3RqtTA==/">Complete C# Masterclass</a></h3>
+            </div>
+            <div class="mt-3 pt-3 border-top d-flex align-items-center text-muted small">
+              <i class="bi bi-award me-1 text-primary"></i> Yet to start
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!--Footer-->
+    <section id="footer">
+        <div class="container"> 
+            <footer class="py-3 my-4"> 
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                    <li class="nav-item"><a href="www.linkedin.com/in/dimitris-vlachogiannis-0b5151439" class="nav-link px-2 text-body-secondary">LinkedIn</a></li> 
+                    <li class="nav-item"><a href="https://github.com/Tsomaros" class="nav-link px-2 text-body-secondary">GitHub</a></li> 
+                    <li class="nav-item"><a href="https://huggingface.co/Tsomaros" class="nav-link px-2 text-body-secondary">Hugging Face</a></li>  
+                </ul> 
+                <p class="text-center text-body-secondary">© 2026 Vlachogiannis Dimitris</p> </footer> 
+            </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
